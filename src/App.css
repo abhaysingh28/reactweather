@@ -1,0 +1,117 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    background: linear-gradient(to bottom, #5050c5 70%, #070d32 100%);
+    overflow: hidden;
+}
+.search{
+    width: 100%;
+    height: 100vh;
+}
+
+.input{
+    margin-top: 3%;
+    width: 100%;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.input form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    padding: 0 30px;
+    font-size: 1.5rem;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.input button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: -60px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.input button i{
+    font-size: 1.2vmax;
+    color: #fd691f;
+}
+.show{
+    margin-top: 13%;
+    height: 50vh;
+    width: 100%;
+    color: white;
+    display: none;
+}
+.show h1{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.show h2{
+    color: wheat;
+}
+.show h3{
+    color: rgb(225, 225, 225);
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.name{
+    width: 100%;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.name img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.name h2{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.name h6{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen  and (max-width: 600px){
+    .input form{
+        margin-top: 30%;
+
+    }
+    .input input{
+        width: 80%;
+        font-size: 1rem;
+    }
+    .input button{
+        margin-left: -50px;
+    }
+    .show{
+        display: none;
+        margin-top: 18% !important;
+    }
+    .show h1{
+        margin-top: 5%;
+    }
+    
+    .input button i{
+        font-size: 2vmax;
+        color: #fd691f;
+    }
+   
+}
